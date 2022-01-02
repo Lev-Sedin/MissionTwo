@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0 auto;
+  overflow: hidden;
+}
+header {
+  background-image: url("/img/png/Rectangle\ 3.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.display {
+  background: linear-gradient(
+    90deg,
+    rgba(213, 32, 71, 0.8) 0%,
+    rgba(238, 61, 27, 0.8) 100%
+  );
+}
+.menu {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 58px;
+  padding-left: 166px;
+  padding-right: 168px;
+}
+.menu_name {
+  display: flex;
+}
+.logo {
+  width: 25px;
+  height: 18px;
+  margin-right: 9px;
+}
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+}
+.menu_title {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.menu_nav {
+  display: flex;
+  padding-right: 68px;
+}
+.nav {
+  padding-right: 20px;
+}
+.nav_item {
+  font-size: 14px;
+  color: #fff;
+}
+.nav_item:hover {
+  font-weight: 700;
+}
+.menu_button {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  text-align: center;
+  padding-top: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.heading {
+  margin-top: 180px;
+  text-align: center;
+  padding-bottom: 300px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 39px;
+  color: #ffffff;
+}
+.heading_description {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 55px;
+}
+.headding_button {
+  padding: 16px 53px;
+  background: #ffffff;
+  border-radius: 6px;
+  color: #ed4c5c;
+  font-weight: 600;
+}
