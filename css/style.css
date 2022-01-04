@@ -225,7 +225,7 @@ h1 {
   width: 100%;
   border-radius: 15px;
 }
-.features {
+.section {
   max-width: 1440px;
   margin: 0 auto;
   padding-left: 165px;
@@ -235,20 +235,9 @@ h1 {
   padding: 63px 0;
   text-align: center;
 }
-.features_cards {
+.cards {
   display: flex;
   justify-content: space-between;
-}
-
-.features_supports {
-  position: relative;
-  padding: 0 15px;
-}
-.features_supports:first-child {
-  padding-left: 0;
-}
-.features_supports:last-child {
-  padding-right: 0;
 }
 .features_supports_img {
   width: 350px;
@@ -286,4 +275,89 @@ h1 {
   font-size: 12px;
   color: #ed4c5c;
   padding-bottom: 25px;
+}
+
+.technology_name {
+  text-align: center;
+  padding-bottom: 52px;
+}
+.technology_box {
+  width: 255px;
+  height: 226px;
+  background: #ffffff;
+  text-align: center;
+}
+.technology_box_logo {
+  padding-top: 59px;
+  padding-bottom: 10px;
+}
+.shild {
+  padding-top: 67px;
+  padding-bottom: 18px;
+}
+.pdf {
+  padding-top: 69px;
+  padding-bottom: 16px;
+}
+.cvs {
+  padding-top: 75px;
+  padding-bottom: 27px;
+}
+.technology_box_name {
+  margin-bottom: 10px;
+}
+.technology_box_paragraph {
+  padding-left: 34px;
+  padding-right: 30px;
+  padding-bottom: 4px;
+  font-size: 12px;
+  line-height: 14px;
+}
+.technology {
+  padding-bottom: 104px;
+}
+.focus {
+  background: #ed4c5c;
+  display: flex;
+  justify-content: space-between;
+}
+.focus_inofmation {
+  width: 445px;
+  height: 271px;
+  margin-top: 122px;
+  margin-bottom: 111px;
+  color: #ffffff;
+}
+.focus_inofmation_name {
+  line-height: 43px;
+  color: #ffffff;
+  padding-bottom: 24px;
+}
+.focus_inofmation_paragrah {
+  margin-top: 24px;
+  margin-bottom: 44px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.focus_inofmation_social {
+  display: flex;
+  align-items: center;
+}
+.social_link {
+  padding-right: 23px;
+}
+.social_link:hover {
+  position: relative;
+  top: -10px;
+}
+.focus_img {
+  margin: 95px 0;
+  margin-right: 95px;
+  width: 445px;
+  height: 311px;
+}
+.focus_img_redfone {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
 }
