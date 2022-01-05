@@ -433,3 +433,68 @@ form {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.footer {
+  max-width: 1083px;
+  margin: 0 auto;
+}
+.footer_information {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 85px;
+  padding-bottom: 86px;
+}
+.footer_addres {
+  width: 259px;
+  height: 264px;
+}
+.footer_name {
+  font-size: 18px;
+  margin-bottom: 33px;
+  font-weight: 700;
+}
+.footer_paragrah {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 141px;
+}
+.footer_service {
+  width: 254px;
+  height: 164px;
+}
+.footer_link_item {
+  font-size: 12px;
+  line-height: 19px;
+  color: #000000;
+}
+.footer_get_in_touch {
+  width: 122px;
+  height: 128px;
+}
+.footer_contact {
+  margin-bottom: 11px;
+}
+.footer_contact:last-child {
+  margin-bottom: 20px;
+}
+.footer_contact_item {
+  font-size: 12px;
+  color: #000;
+}
+
+.footer_item {
+  margin-right: 12px;
+}
+.footer_item:hover {
+  position: relative;
+  top: -10px;
+}
+.footer_icon {
+  width: 14px;
+  height: 14px;
+}
+.footer_support {
+  width: 216px;
+  height: 31px;
+  margin-left: 165px;
+  margin-right: 31px;
+}
