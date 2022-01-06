@@ -407,6 +407,10 @@ form {
   color: rgba(19, 39, 67, 0.5);
   padding-left: 30px;
 }
+.form:focus {
+  border: solid #ed4c5c 1px;
+  box-shadow: 0 0 20px #ed4c5c;
+}
 .form:first-child {
   margin-right: 27px;
 }
@@ -441,7 +445,6 @@ form {
   display: flex;
   justify-content: space-between;
   margin-top: 85px;
-  padding-bottom: 86px;
 }
 .footer_addres {
   width: 259px;
@@ -455,7 +458,6 @@ form {
 .footer_paragrah {
   font-size: 12px;
   line-height: 18px;
-  margin-bottom: 141px;
 }
 .footer_service {
   width: 254px;
@@ -497,4 +499,145 @@ form {
   height: 31px;
   margin-left: 165px;
   margin-right: 31px;
+}
+.footer_author {
+  margin-top: 83px;
+}
+
+@media screen and (max-width: 1024px) {
+  .features {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .features_supports {
+    margin: 0 20px;
+  }
+  .technology {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer_addres {
+    width: 120px;
+    height: 175px;
+  }
+  .footer_service {
+    width: 120px;
+  }
+  .footer_support {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 52px;
+  }
+  .heading_description {
+    font-size: 20px;
+  }
+  .about {
+    flex-direction: column;
+    padding: 0 5px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .about_iformation {
+    width: 405px;
+  }
+
+  .about_img {
+    width: 405px;
+    margin: 0;
+  }
+  .menu_nav {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .nav {
+    padding-top: 15px;
+    padding-right: 0;
+  }
+  .nav:first-child {
+    padding-top: 0;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .focus_section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .focus_inofmation {
+    width: 405px;
+    margin-bottom: 55px;
+  }
+  .focus_img {
+    width: 405px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact_information {
+    margin-bottom: -58px;
+    width: 405px;
+  }
+  form {
+    width: 405px;
+  }
+  .min {
+    width: 187px;
+  }
+  .max {
+    width: 405px;
+  }
+  .footer_information {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 425px) {
+  .menu {
+    flex-direction: column;
+  }
+  .menu_nav {
+    margin: 10px 0;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  .heading_description {
+    font-size: 18px;
+  }
+  .about_iformation {
+    width: 360px;
+  }
+  .about_img {
+    width: 360px;
+  }
+  .focus_inofmation {
+    width: 360px;
+  }
+  .focus_img {
+    width: 360px;
+  }
+  .contact_information {
+    width: 360px;
+  }
+  form {
+    width: 360px;
+  }
+  .min {
+    width: 165px;
+  }
+  .max {
+    width: 360px;
+  }
+  .footer_support {
+    margin: 0 auto;
+  }
+  .footer_author {
+    margin-top: 120px;
+  }
 }
