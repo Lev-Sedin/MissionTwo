@@ -188,8 +188,7 @@ header {
   font-weight: 600;
 }
 .header_heading_button:hover {
-  background: #ed4c5c;
-  color: #fff;
+  opacity: 0.5;
 }
 .about {
   max-width: 1100px;
@@ -222,9 +221,14 @@ header {
   font-weight: 400;
   color: #101010;
 }
-.about_iformation_link {
+.about_link {
   color: #ed4c5c;
   padding-bottom: 4px;
+}
+.about_link:hover {
+  background: #ed4c5c;
+  color: #fff;
+  border-radius: 5px;
 }
 .about_img {
   width: 445px;
@@ -288,10 +292,14 @@ header {
   padding-bottom: 20px;
 }
 .features_link {
+  display: block;
   font-weight: bold;
   font-size: 12px;
   color: #ed4c5c;
   padding-bottom: 25px;
+}
+.features_link:hover {
+  opacity: 0.5;
 }
 .technology {
   padding-bottom: 67px;
@@ -355,18 +363,18 @@ header {
   margin-bottom: 111px;
   color: #ffffff;
 }
-.focus_inofmation_name {
+.focus_title {
   line-height: 43px;
   color: #ffffff;
   padding-bottom: 24px;
 }
-.focus_inofmation_paragrah {
+.focus_paragrah {
   margin-top: 24px;
   margin-bottom: 44px;
   line-height: 20px;
   color: #ffffff;
 }
-.focus_inofmation_social {
+.focus_social {
   display: flex;
   align-items: center;
 }
@@ -374,8 +382,7 @@ header {
   padding-right: 23px;
 }
 .social_link:hover {
-  position: relative;
-  top: -10px;
+  opacity: 0.5;
 }
 .focus_img {
   width: 445px;
@@ -383,7 +390,7 @@ header {
   margin-top: 95px;
   margin-right: 95px;
 }
-.focus_img_redfone {
+.focus_redfone {
   width: 100%;
   border-radius: 15px;
   object-fit: cover;
@@ -401,15 +408,15 @@ header {
   width: 445px;
   height: 160px;
 }
-.contact_inofmation_name {
+.contact_title {
   padding-bottom: 24px;
 }
-.contact_inofmation_paragrah {
+.contact_paragrah {
   margin-top: 39px;
   line-height: 20px;
   padding-right: 11px;
 }
-form {
+.form-contact {
   margin-top: 117px;
   width: 540px;
   height: 305px;
@@ -453,9 +460,14 @@ form {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.btn-form:hover {
+  border: solid #ed4c5c 1px;
+  box-shadow: 0 0 40px #ed4c5c;
+}
 .footer {
   max-width: 1083px;
   margin: 0 auto;
+  background: #fafafa;
 }
 .footer_information {
   display: flex;
@@ -466,7 +478,7 @@ form {
   width: 259px;
   height: 264px;
 }
-.footer_name {
+.footer_title {
   font-size: 18px;
   margin-bottom: 33px;
   font-weight: 700;
@@ -503,8 +515,7 @@ form {
   margin-right: 12px;
 }
 .footer_item:hover {
-  position: relative;
-  top: -10px;
+  opacity: 0.5;
 }
 .footer_icon {
   width: 14px;
@@ -522,14 +533,14 @@ form {
 }
 
 @media screen and (max-width: 1024px) {
-  .features {
+  .features_cards {
     justify-content: center;
     flex-wrap: wrap;
   }
   .features_supports {
     margin: 0 20px;
   }
-  .technology {
+  .technology_cards {
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -545,7 +556,7 @@ form {
   }
 }
 @media screen and (max-width: 768px) {
-  h1 {
+  .h1-title {
     font-size: 52px;
   }
   .heading_description {
@@ -565,7 +576,7 @@ form {
     width: 405px;
     margin: 0;
   }
-  .menu_nav {
+  .header_nav {
     flex-direction: column;
     justify-content: space-between;
   }
@@ -601,7 +612,7 @@ form {
     margin-bottom: -58px;
     width: 405px;
   }
-  form {
+  .form-contact {
     width: 405px;
   }
   .min {
@@ -618,10 +629,10 @@ form {
   .menu {
     flex-direction: column;
   }
-  .menu_nav {
+  .header_nav {
     margin: 10px 0;
   }
-  h1 {
+  .h1-title {
     font-size: 45px;
   }
   .heading_description {
