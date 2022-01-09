@@ -506,6 +506,9 @@ header {
   line-height: 19px;
   color: #000000;
 }
+.footer_link_item:hover {
+  color: #ed4c5c;
+}
 .footer_get_in_touch {
   width: 122px;
   height: 128px;
