@@ -519,7 +519,9 @@ header {
 .footer_contact_item:last-child {
   margin-bottom: 20px;
 }
-
+.footer_contact_item:hover {
+  color: #ed4c5c;
+}
 .footer_media_item {
   margin-right: 12px;
 }
