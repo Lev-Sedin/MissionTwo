@@ -198,11 +198,11 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-right: 95px;
+  padding-top: 94px;
+  padding-bottom: 95px;
 }
 .about_iformation {
   width: 445px;
-  padding-top: 140px;
-  padding-bottom: 114px;
 }
 .about_title {
   line-height: 43px;
@@ -246,40 +246,44 @@ header {
 }
 .features {
   background: #fafafa;
-  max-width: 1100px;
+  max-width: 1110px;
   margin: 0 auto;
+  padding-top: 63px;
+  padding-bottom: 90px;
 }
 
 .features_title {
-  padding-top: 63px;
   text-align: center;
+  padding-bottom: 63px;
 }
 .features_cards {
-  padding: 63px 5px 100px 5px;
-  margin: 0 auto;
+  margin: 0 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.features_supports {
+.features_box {
   width: 350px;
   height: 355px;
+  margin-right: 1px;
 }
+
 .features_img {
   width: 100%;
   border-radius: 8px;
 }
 .features_information {
+  background: #ffffff;
+  border-radius: 8px;
   width: 293px;
   height: 198px;
+  padding: 0 32px;
   margin: 0 22.5px;
   position: relative;
   top: -92px;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
 }
 .features_card {
-  background: #ffffff;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
   text-align: center;
 }
 .features_name {
@@ -292,7 +296,7 @@ header {
   padding-bottom: 20px;
 }
 .features_link {
-  display: block;
+  display: inline-block;
   font-weight: bold;
   font-size: 12px;
   color: #ed4c5c;
@@ -302,7 +306,7 @@ header {
   opacity: 0.5;
 }
 .technology {
-  padding-bottom: 67px;
+  padding-bottom: 104px;
 }
 .technology_title {
   text-align: center;
@@ -348,6 +352,8 @@ header {
 
 .focus {
   background: #ed4c5c;
+  padding-top: 94px;
+  padding-bottom: 115px;
 }
 .focus_section {
   max-width: 1100px;
@@ -359,9 +365,8 @@ header {
 .focus_inofmation {
   width: 445px;
   height: 271px;
-  margin-top: 122px;
-  margin-bottom: 111px;
   color: #ffffff;
+  padding-top: 27px;
 }
 .focus_title {
   line-height: 43px;
@@ -387,7 +392,6 @@ header {
 .focus_img {
   width: 445px;
   height: 311px;
-  margin-top: 95px;
   margin-right: 95px;
 }
 .focus_redfone {
@@ -401,10 +405,10 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  padding-top: 117px;
+  padding-bottom: 123px;
 }
 .contact_information {
-  margin-top: 117px;
-  margin-bottom: 223px;
   width: 445px;
   height: 160px;
 }
@@ -417,10 +421,8 @@ header {
   padding-right: 11px;
 }
 .form-contact {
-  margin-top: 117px;
   width: 540px;
   height: 305px;
-  margin-bottom: 123px;
 }
 .form {
   border: 1px solid #333333;
@@ -428,7 +430,6 @@ header {
   border-radius: 6px;
   font-size: 16px;
   color: rgba(19, 39, 67, 0.5);
-  padding-left: 30px;
 }
 .form:focus {
   border: solid #ed4c5c 1px;
@@ -440,12 +441,16 @@ header {
 .min {
   width: 255px;
   height: 60px;
+  padding-left: 30px;
+  padding-right: 27%;
 }
 .max {
   display: block;
   margin-top: 24px;
   width: 540px;
   height: 60px;
+  padding-left: 30px;
+  padding-right: 74.5%;
 }
 .btn-form {
   display: block;
@@ -468,20 +473,25 @@ header {
   max-width: 1083px;
   margin: 0 auto;
   background: #fafafa;
+  padding-top: 50px;
 }
 .footer_information {
   display: flex;
   justify-content: space-between;
-  margin-top: 85px;
+  margin: 0 5px;
 }
 .footer_addres {
   width: 259px;
-  height: 264px;
+  height: 164px;
 }
 .footer_title {
   font-size: 18px;
   margin-bottom: 33px;
   font-weight: 700;
+}
+.footer_list {
+  display: flex;
+  flex-direction: column;
 }
 .footer_paragrah {
   font-size: 12px;
@@ -500,36 +510,35 @@ header {
   width: 122px;
   height: 128px;
 }
-.footer_contact {
-  margin-bottom: 11px;
-}
-.footer_contact:last-child {
-  margin-bottom: 20px;
-}
 .footer_contact_item {
+  display: inline-block;
+  margin-bottom: 11px;
   font-size: 12px;
   color: #000;
 }
+.footer_contact_item:last-child {
+  margin-bottom: 20px;
+}
 
-.footer_item {
+.footer_media_item {
   margin-right: 12px;
 }
-.footer_item:hover {
+.footer_media_item:hover {
   opacity: 0.5;
 }
-.footer_icon {
+.footer_media_icon {
   width: 14px;
   height: 14px;
 }
 .footer_support {
   width: 216px;
   height: 31px;
-  margin-left: 165px;
+  margin-left: 15%;
   margin-right: 31px;
 }
 .footer_author {
   margin-top: 141px;
-  padding-bottom: 83px;
+  padding-bottom: 86px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -537,8 +546,9 @@ header {
     justify-content: center;
     flex-wrap: wrap;
   }
-  .features_supports {
-    margin: 0 20px;
+  .features_box {
+    margin: 0 15px;
+    margin-bottom: 15px;
   }
   .technology_cards {
     flex-wrap: wrap;
@@ -564,7 +574,7 @@ header {
   }
   .about {
     flex-direction: column;
-    padding: 0 5px;
+    padding: 50px 5px;
     margin: 0 auto;
     align-items: center;
   }
@@ -575,16 +585,17 @@ header {
   .about_img {
     width: 405px;
     margin: 0;
+    padding-top: 40px;
   }
   .header_nav {
     flex-direction: column;
     justify-content: space-between;
   }
-  .nav {
+  .header_item {
     padding-top: 15px;
     padding-right: 0;
   }
-  .nav:first-child {
+  .header_item:first-child {
     padding-top: 0;
   }
   .features {
@@ -600,37 +611,45 @@ header {
   }
   .focus_img {
     width: 405px;
-    margin-top: 0;
+    padding-top: 44px;
     margin-right: 0;
-    margin-bottom: 40px;
   }
   .contact {
     flex-direction: column;
     align-items: center;
   }
   .contact_information {
-    margin-bottom: -58px;
+    margin-bottom: -7px;
     width: 405px;
+  }
+  .contact_paragrah {
+    margin-top: 9px;
   }
   .form-contact {
     width: 405px;
   }
   .min {
     width: 187px;
+    padding-right: 19%;
   }
   .max {
     width: 405px;
+    padding-right: 65.5%;
   }
   .footer_information {
     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 425px) {
-  .menu {
+  .header_menu {
     flex-direction: column;
   }
   .header_nav {
     margin: 10px 0;
+    text-align: center;
+  }
+  .header_heading {
+    margin-top: 100px;
   }
   .h1-title {
     font-size: 45px;
@@ -653,14 +672,16 @@ header {
   .contact_information {
     width: 360px;
   }
-  form {
+  .form-contact {
     width: 360px;
   }
   .min {
     width: 165px;
+    padding-right: 15%;
   }
   .max {
     width: 360px;
+    padding-right: 61.5%;
   }
   .footer_support {
     margin: 0 auto;
