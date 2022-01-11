@@ -565,6 +565,8 @@ label:hover {
 .footer-information {
   display: flex;
   justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .footer-information__addres {
   width: 259px;
