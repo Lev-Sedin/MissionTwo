@@ -109,10 +109,12 @@ header {
   max-width: 996px;
   padding: 0 5px;
   margin: 0 auto;
+  padding-top: 58px;
+}
+.menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 58px;
 }
 .name {
   display: flex;
@@ -278,19 +280,24 @@ label:hover {
 }
 .about {
   max-width: 1100px;
-  padding: 0 5px;
   margin: 0 auto;
+}
+.about__container {
+  padding-top: 94px;
+  padding-bottom: 95px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 95px;
-  padding-top: 94px;
-  padding-bottom: 95px;
 }
-.about__iformation {
+.iformation {
   width: 445px;
+  margin-right: 5px;
 }
-.about__title {
+.iformation__title {
   line-height: 43px;
   padding-bottom: 46px;
 }
@@ -299,7 +306,7 @@ label:hover {
   font-size: 36px;
   color: #000;
 }
-.about__paragraph {
+.iformation__paragraph {
   line-height: 140%;
   padding-bottom: 10px;
 }
@@ -307,24 +314,28 @@ label:hover {
   font-weight: 400;
   color: #101010;
 }
-.about__link {
+.link {
   color: #ed4c5c;
+}
+.iformation__link {
   padding-bottom: 4px;
 }
-.about__link:hover {
-  background: #ed4c5c;
+.iformation__link:hover {
   color: #fff;
+  background: #ed4c5c;
   border-radius: 5px;
 }
-.about__img {
+.photo {
   width: 445px;
-  height: 311px;
-  margin-left: 62.5px;
-  margin-top: 94px;
 }
-.about__photo {
+.iformation__img {
+  margin-right: 90px;
+}
+.photo__img {
   width: 100%;
+  height: 100%;
   border-radius: 15px;
+  object-fit: contain;
 }
 .section {
   max-width: 1100px;
@@ -335,7 +346,7 @@ label:hover {
   padding-top: 63px;
   padding-bottom: 90px;
 }
-.features__body {
+.features-container {
   max-width: 1110px;
   margin: 0 auto;
 }
@@ -393,11 +404,12 @@ label:hover {
   opacity: 0.5;
 }
 .technology {
-  padding-bottom: 104px;
+  padding-top: 68px;
+  padding-bottom: 70px;
 }
 .technology__title {
   text-align: center;
-  padding-bottom: 5px;
+  padding-bottom: 61px;
 }
 .technology__cards {
   margin: 0;
@@ -434,35 +446,24 @@ label:hover {
   font-size: 12px;
   line-height: 14px;
 }
-
 .focus {
   background: #ed4c5c;
+}
+.focus__container {
   padding-top: 94px;
-  padding-bottom: 115px;
-}
-.focus__section {
+  padding-bottom: 95px;
+  padding-left: 5px;
   max-width: 1100px;
-  padding: 0 5px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
 }
-.focus__inofmation {
-  width: 445px;
-  height: 271px;
+.iformation__title_white {
   color: #ffffff;
-  padding-top: 27px;
 }
-.focus__title {
-  line-height: 43px;
+.iformation__paragraph_white {
   color: #ffffff;
-  padding-bottom: 24px;
 }
-.focus__paragrah {
-  margin-top: 24px;
-  margin-bottom: 44px;
-  line-height: 20px;
-  color: #ffffff;
+.iformation__social {
+  margin-top: 42px;
 }
 .social {
   display: flex;
@@ -474,36 +475,17 @@ label:hover {
 .social__link:hover {
   opacity: 0.5;
 }
-.focus__img {
-  width: 445px;
-  height: 311px;
-  margin-right: 95px;
-}
-.focus__redfone {
-  width: 100%;
-  border-radius: 15px;
-  object-fit: cover;
-}
+
 .contact {
   max-width: 1100px;
-  padding: 0 5px 0 9px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+}
+.contact__container {
   padding-top: 117px;
-  padding-bottom: 123px;
-}
-.contact__information {
-  width: 445px;
-  height: 160px;
-}
-.contact__title {
-  padding-bottom: 24px;
-}
-.contact__paragrah {
-  margin-top: 39px;
-  line-height: 20px;
-  padding-right: 11px;
+  padding-bottom: 78px;
+  padding-left: 9px;
+  padding-right: 5px;
+  align-items: baseline;
 }
 .form-contact {
   width: 540px;
@@ -556,17 +538,19 @@ label:hover {
 }
 .footer {
   background: #fafafa;
-  padding-top: 50px;
 }
 .footer__box {
+  padding-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.box {
   max-width: 1083px;
   margin: 0 auto;
 }
 .footer-information {
   display: flex;
   justify-content: space-between;
-  padding-left: 5px;
-  padding-right: 5px;
 }
 .footer-information__addres {
   width: 259px;
@@ -664,7 +648,7 @@ label:hover {
   }
 }
 @media screen and (max-width: 768px) {
-  .header__menu {
+  .menu {
     justify-content: center;
   }
   .h1-title {
@@ -673,20 +657,29 @@ label:hover {
   .heading_description {
     font-size: 20px;
   }
-  .about {
+  .container {
     flex-direction: column;
     padding: 50px 5px;
     margin: 0 auto;
     align-items: center;
   }
-  .about__iformation {
+  .iformation {
     width: 405px;
+    margin: 0;
   }
-
-  .about__img {
+  .iformation__img {
     width: 405px;
     margin: 0;
     padding-top: 40px;
+  }
+  .iformation__title {
+    padding-bottom: 20px;
+  }
+  .iformation__paragraph {
+    padding-bottom: 20px;
+  }
+  .iformation__social {
+    margin-top: 10px;
   }
   .nav {
     display: none;
@@ -707,29 +700,9 @@ label:hover {
   .features {
     flex-direction: column;
   }
-  .focus__section {
-    flex-direction: column;
-    align-items: center;
-  }
-  .focus__inofmation {
-    width: 405px;
-    margin-bottom: 55px;
-  }
-  .focus__img {
-    width: 405px;
-    padding-top: 44px;
-    margin-right: 0;
-  }
   .contact {
     flex-direction: column;
     align-items: center;
-  }
-  .contact__information {
-    margin-bottom: -7px;
-    width: 405px;
-  }
-  .contact__paragrah {
-    margin-top: 9px;
   }
   .form-contact {
     width: 405px;
@@ -751,22 +724,13 @@ label:hover {
   .h1-title {
     font-size: 45px;
   }
-  .heading_description {
-    font-size: 18px;
+  .heading__description {
+    font-size: 20px;
   }
-  .about__iformation {
+  .iformation {
     width: 360px;
   }
-  .about__img {
-    width: 360px;
-  }
-  .focus__inofmation {
-    width: 360px;
-  }
-  .focus__img {
-    width: 360px;
-  }
-  .contact__information {
+  .photo {
     width: 360px;
   }
   .form-contact {
@@ -777,9 +741,6 @@ label:hover {
   }
   .max {
     width: 360px;
-  }
-  .footer {
-    padding: 0 15px;
   }
   .footer__support {
     margin: 0;
@@ -798,13 +759,10 @@ label:hover {
   .h1-title {
     font-size: 38px;
   }
-  .heading__description {
-    font-size: 20px;
-  }
-  .about__iformation {
+  .iformation {
     width: 310px;
   }
-  .about__img {
+  .photo {
     width: 310px;
   }
   .row__box {
@@ -819,15 +777,6 @@ label:hover {
     margin: 0px 13.5px;
     top: -74px;
   }
-  .focus__inofmation {
-    width: 310px;
-  }
-  .focus__img {
-    width: 310px;
-  }
-  .contact__information {
-    width: 310px;
-  }
   .form-contact {
     width: 310px;
   }
@@ -839,9 +788,6 @@ label:hover {
   }
   .max {
     width: 310px;
-  }
-  .footer {
-    padding: 0 5px;
   }
   .footer-information {
     flex-direction: column;
@@ -859,5 +805,16 @@ label:hover {
   }
   .footer__support {
     width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__menu {
+    padding-top: 20px;
+  }
+  .h1-title {
+    font-size: 30px;
+  }
+  .heading__description {
+    font-size: 14px;
   }
 }

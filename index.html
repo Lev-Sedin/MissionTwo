@@ -11,7 +11,7 @@
 <body>
     <header class="header">
         <div class="header__body">
-            <div class="header__menu">
+            <div class="header__menu menu">
                 <div class="name">
                     <img class="name__logo" src="img/svg/Vector.svg" alt="">
                     <h3 class="name__title_h3 h3-title">CloudBudget</h3>
@@ -31,7 +31,6 @@
                     <div class="nav__line"></div>
                     <div class="nav__line"></div>
                     <div class="nav__line"></div>
-                
                     <nav class="nav__mobile">
                         <a href="#overview" class="nav__item">OVERVIEW</a>
                         <a href="#features" class="nav__item">FEATURES</a>
@@ -50,17 +49,21 @@
         </div>
     </header>
     <div class="about" id="overview">
-        <div class="about__iformation">
-            <h2 class="about__title h2-title">Easy to Use Cloud Budget Management Software</h2>
-            <p class="about__paragraph paragraph">Our software is made so you can access and manage your budget and expenses online at any time from any device. It provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a glance. Read below to find out more.</p>
-            <a href="#" class="about__link ">Learn More</a>
-        </div>
-        <div class="about__img">
-            <img class="about__photo" src="img/png/video.jpg" alt="">
+        <div class="about__container container">
+            <div class="iformation">
+                <h2 class="iformation__title h2-title">Easy to Use Cloud Budget Management Software</h2>
+                <p class="iformation__paragraph paragraph">Our software is made so you can access and manage your budget and
+                    expenses online at any time from any device. It provides detailed income and expense reports with graphs so you
+                    can easilly see your spending patterns and budget at a glance. Read below to find out more.</p>
+                <a href="#" class="iformation__link link">Learn More</a>
+            </div>
+            <div class="iformation__img photo">
+                <img class="photo__img" src="img/png/video.jpg" alt="">
+            </div>
         </div>
     </div>
     <div class="features" id="features">
-        <div class="features__body">
+        <div class="features-container">
             <h2 class="features__title h2-title">Features</h2>
             <div class="row">
                 <div class="row__box">
@@ -124,39 +127,39 @@
             </div>
         </div>
     </div>
-    <div class="focus">
-        <div class="focus__section">
-            <div class="focus__inofmation">
-                <h2 class="focus__title h2-title">Stay focused on saving money</h2>
-                <p class="focus__paragrah paragrah">It is important to stay focused on saving money in any way you can. We
-                    help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today
-                    to get started!</p>
-                <div class="social">
+    <div class="focus" id="overview">
+        <div class="focus__container container">
+            <div class="iformation">
+                <h2 class="iformation__title h2-title iformation__title_white">Stay focused on saving money</h2>
+                <p class="iformation__paragraph paragraph iformation__paragraph_white">It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p>
+                <div class="iformation__social  social ">
                     <a class="social__link" href="#" target="_blank"><img src="img/svg/playstore.svg" alt=""></a>
                     <a class="social__link" href="#" target="_blank"><img src="img/svg/appstore.svg" alt=""></a>
                     <a class="social__link" href="#" target="_blank"><img src="img/svg/windows.svg" alt=""></a>
                 </div>
             </div>
-            <div class="focus__img">
-                <img class="focus__redfone" src="img/png/redfone.jpg" alt="">
+            <div class="iformation__img photo">
+                <img class="photo__img" src="img/png/redfone.jpg" alt="">
             </div>
         </div>
     </div>
     <div class="contact" id="contact">
-        <div class="contact__information">
-            <h2 class="contact__title h2-title">Contact</h2>
-            <p class="contact__paragrah paragrah">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+        <div class="contact__container container">
+            <div class="iformation">
+                <h2 class="iformation__title h2-title">Contact</h2>
+                <p class="iformation__paragraph paragraph">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+            </div>
+            <form action="#" class="form-contact">
+                <input class="form min" type="text" placeholder="First Name" name="text" required>
+                <input class="form min" type="text" placeholder="Last Name" name="text" required>
+                <input class="form max" type="tel" placeholder="Phone Number" name="tel" required>
+                <input class="form max" type="text" placeholder="Your Question" name="text">
+                <button type="submit" class="btn-form">Submit Now</button>
+            </form>
         </div>
-        <form action="#" class="form-contact" >
-            <input class="form min" type="text" placeholder="First Name" name="text" required>
-            <input class="form min" type="text" placeholder="Last Name" name="text" required>
-            <input class="form max" type="tel" placeholder="Phone Number" name="tel" required>
-            <input class="form max" type="text" placeholder="Your Question" name="text" >
-            <button type="submit" class="btn-form">Submit Now</button>
-        </form>
     </div>
     <footer class="footer">
-        <div class="footer__box">
+        <div class="footer__box box">
             <div class="footer-information">
                 <div class="footer-information__addres">
                     <h3 class="footer-information__title h3-title">Address</h3>
